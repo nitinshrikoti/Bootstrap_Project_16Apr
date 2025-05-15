@@ -23,3 +23,7 @@
   background:linear-gradient(to right, #0ACEFE, #2699FB);
 }
 
+.bannerContent h1 {
+  font-size: 52;
+  font-weight: 700;
+}
