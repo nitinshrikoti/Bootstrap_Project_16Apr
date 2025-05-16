@@ -1,29 +1,40 @@
+:root {
+  --color-wht: #ffffff;
+  --color-grn-1: #27AE60;
+  --color-blue-1: #0ACEFE;
+  --color-blue-2: #2699FB;
+}
+
 * {
   font-family: "Inter", sans-serif;
 }
 
 .whatsappbtn {
-  border: 1px solid #27AE60;
+  border: 1px solid var(--color-grn-1);
   padding: 10px 18px;
-  color: #27AE60;
+  color: var(--color-grn-1);
   font-size: 16px;
 }
 .whatsappbtn i {
-  color: #27AE60;
+  color: var(--color-grn-1);
 }
 
 .whatsappbtn:hover {
-  border: 1px solid #27AE60;
-  color: #27AE60;
+  border: 1px solid var(--color-grn-1);
+  color: var(--color-grn-1);
 }
 
 .call {
-  color: #ffffff;
+  color: var(--color-wht);
   padding: 10px 18px;
-  background:linear-gradient(to right, #0ACEFE, #2699FB);
+  background:linear-gradient(to right, var(--color-blue-1), var(--color-blue-2));
 }
 
 .bannerContent h1 {
   font-size: 52;
   font-weight: 700;
+}
+
+.bannerContent h1 span {
+  color: var(--color-blue-2);
 }
