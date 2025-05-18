@@ -36,6 +36,14 @@
   );
 }
 
+.call:hover,
+.bannerForm button:hover,
+.bannerContentBtn button:first-child:hover {
+  color: var(--color-blue-3);
+  background: var(--color-wht);
+  border: 1px solid var(--color-gray-1);
+}
+
 .bannerContent h1 {
   font-size: 52px;
   font-weight: 700;
@@ -61,13 +69,14 @@
   color: var(--color-blue-2);
 }
 
-.bannerContentBtn button {
+.bannerContentBtn button,
+.bannerForm button {
   width: 50%;
   padding: 10px 0;
-  border: 2px solid var(--color-gray-1);
 }
 
-.bannerContentBtn button:first-child {
+.bannerContentBtn button:first-child,
+.bannerForm button {
   color: var(--color-wht);
   background: linear-gradient(
     to right,
@@ -78,4 +87,14 @@
 
 .bannerContentBtn button:nth-child(2) {
   color: var(--color-blue-3);
+  border: 1px solid var(--color-gray-1);
+}
+
+.bannerForm {
+  padding: 40px;
+}
+
+.bannerForm h3 {
+  font-size: 18px;
+  font-weight: 700;
 }
