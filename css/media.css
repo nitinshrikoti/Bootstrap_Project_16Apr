@@ -3,8 +3,10 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    background-color: white;
     width: 100%;
     justify-content: center !important;
+    padding: 5px 0;
   }
   .whatsappbtn,
   .call {
@@ -32,6 +34,9 @@
 
   .bannerContentBtn button {
     width: 100%;
+  }
+  .bannerForm {
+    padding: 20px;
   }
 }
 
